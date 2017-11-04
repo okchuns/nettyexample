@@ -12,7 +12,7 @@ public class EchoClientHandler extends ChannelInboundHandlerAdapter {
 	@Override
 	public void channelActive(ChannelHandlerContext ctx) throws Exception {
 		// TODO Auto-generated method stub
-		super.channelActive(ctx);
+		//super.channelActive(ctx);
 		String sendMessage = "Hello netty";
 
 		ByteBuf messageBuffer = Unpooled.buffer();
